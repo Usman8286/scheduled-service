@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<services>
+	<schedular-service>
+		<watch-path>E:\WatchPath</watch-path>
+		<mail-temp-path>E:\Attachments</mail-temp-path>
+		<recipients>usmanshahid.h@gmail.com</recipients>
+		<smtp-settings host = "172.23.11.100" port = "25" user = "test" domain = "xchange.com" password = "test1234" />
+		<database-settings username = "service" password = "test1234" dburl = "jdbc:oracle:thin:@sol12c-orcl:1521:pdborcl" driver = "oracle.jdbc.OracleDriver" />
+	</schedular-service>
+</services>
